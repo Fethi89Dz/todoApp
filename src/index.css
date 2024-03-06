@@ -2,16 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    /* Adjust as needed */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    /* width: 300px; */
+    /* Adjust width as needed */
+    height: auto;
+    /* Allow the height to adjust based on content */
+    margin-bottom: 20px;
+    /* Adjust the spacing between cards */
 }
